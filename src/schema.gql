@@ -1,0 +1,12 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Restaurant {
+  name: String!
+  isGood: Boolean
+}
+
+type Query {
+  restaurants(veganOnly: String!): [Restaurant!]!
+}
